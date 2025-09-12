@@ -25,10 +25,12 @@
     // 폰트 최적화
     font-synthesis: none;
     text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%; 
-  
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+
     @media (max-width: 800px) {
         font-size: 14px;
         line-height: 1.4;
